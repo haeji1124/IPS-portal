@@ -2,6 +2,6 @@
 
 layout: category
 
-title: letter IT category
+title: letter IT
 
 ---
