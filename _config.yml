@@ -5,7 +5,9 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 collections:
-- roadmap
+  roadmap:
+    output: true
+    permalink: /:path/:title
 ############################
 # --- Required options --- #
 ############################
