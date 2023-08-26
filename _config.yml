@@ -21,7 +21,7 @@ author: Haeji Shin
 
 navbar-links:
   IPS Roadmap: 
-    - Haeji Shin: "/:path/:title"
+    - Haeji Shin: "/title"
     - Jihoon Lee: "https://naver.com"
     - Sangheon Lee: "https://naver.com"
     - Yeonho Im: "https://naver.com"
@@ -258,7 +258,7 @@ date_format: "%Y/%m/%-d"
 timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /title/
+permalink: /:collection/:title/
 paginate: 5
 
 kramdown:
