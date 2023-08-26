@@ -1,10 +1,16 @@
-{% assign author = site[page.author] %}
-{% if author %}
-  <span>
-    Written by {{ author.name }}
-  </span>
-{% else %}
-  <span>
-    Written by Haeji Shin
-  </span>
-{% endif %}
+<header class="site-author">
+  <ul>
+    
+    {% assign author = site[page.author] %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "author" %}
+          <li><a class="author-link {% if page.url == node.url %} active{% endif %}"
+          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+</ul>
+</header>
+    
