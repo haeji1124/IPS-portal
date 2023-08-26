@@ -24,10 +24,12 @@ author: Haeji Shin
 
 navbar-links:
   IPS Roadmap: 
-    - Haeji Shin: "/title"
-    - Jihoon Lee: "https://naver.com"
-    - Sangheon Lee: "https://naver.com"
-    - Yeonho Im: "https://naver.com"
+    - Haeji Shin: "/IPS-roadmap/Haeji-Shin"
+    - Jihoon Lee: "/IPS-roadmap/Haeji-Shin"
+    - Sangheon Lee: "/IPS-roadmap/Haeji-Shin"
+    - Yeonho Im: "/IPS-roadmap/Haeji-Shin"
+  letter: "/IPS-letter"
+  Request: "/request"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
