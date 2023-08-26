@@ -450,7 +450,7 @@ footer .footer-custom-content {
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .post-preview {
     padding: 2.1875rem 0;
   }
@@ -492,7 +492,7 @@ footer .footer-custom-content {
 .post-heading .post-meta {
   display: inline-block;
 }
-@media (max-width: 767px) {
+@media (max-width:1200px) {
   .post-heading .post-meta {
     display: block;
     margin-bottom: 0;
@@ -502,7 +502,7 @@ footer .footer-custom-content {
   margin: 0 0.625rem;
 }
 .post-preview .post-entry {
-  width: 100%;
+  width: 100vw;
 }
 .post-preview .post-image {
   float: right;
