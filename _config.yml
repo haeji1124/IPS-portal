@@ -7,7 +7,7 @@
 collections:
   roadmap:
     output: true
-    permalink: /:path/:title
+    permalink: /:collection/:title
 ############################
 # --- Required options --- #
 ############################
