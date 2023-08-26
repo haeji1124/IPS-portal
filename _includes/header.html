@@ -1,6 +1,7 @@
 <!-- TODO this file has become a mess, refactor it -->
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% assign author = site.date_format %}
 
 {% if page.cover-img or page.title %}
 
@@ -38,7 +39,7 @@
           {% endif %}
 
           {% if include.type == "post" %}
-            <span class="post-meta">Posted on {{ page.last_modified_at | date: '%Y/%m/%d %H:%M:%S' }} By {{page.author | author: Haeji Shin}} </span>
+            <span class="post-meta">Posted on {{ page.last_modified_at | date: '%Y/%m/%d %H:%M:%S' }} By {{ page.author }} </span>
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
