@@ -28,7 +28,9 @@ navbar-links:
     - Jihoon Lee: "/IPS-roadmap/Haeji-Shin"
     - Sangheon Lee: "/IPS-roadmap/Haeji-Shin"
     - Yeonho Im: "/IPS-roadmap/Haeji-Shin"
-  letter: "/IPS-letter"
+  letter: 
+    - IT : "/IPS-letter/IT"
+    - ETC : "/IPS-letter/ETC"
   Request: "/request"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
