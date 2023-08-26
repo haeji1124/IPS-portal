@@ -21,7 +21,7 @@ author: Haeji Shin
 
 navbar-links:
   IPS Roadmap: 
-    - Haeji Shin: "https://naver.com"
+    - Haeji Shin: "/:path/:title"
     - Jihoon Lee: "https://naver.com"
     - Sangheon Lee: "https://naver.com"
     - Yeonho Im: "https://naver.com"
@@ -100,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "haeji1124.github.io"
+url-pretty: "IPS Portal"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
