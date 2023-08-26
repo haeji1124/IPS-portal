@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Haeji's Study Note
+title: IPS portal
 
 # Your name to show in the footer
 author: Haeji Shin
@@ -20,7 +20,11 @@ author: Haeji Shin
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  IPS Roadmap: 
+    - Haeji Shin: "https://naver.com"
+    - Jihoon Lee: "https://naver.com"
+    - Sangheon Lee: "https://naver.com"
+    - Yeonho Im: "https://naver.com"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
